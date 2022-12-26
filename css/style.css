@@ -1,0 +1,120 @@
+body {
+    margin: auto 0;
+    font-family: Arial;
+    display: flex; 
+    flex-direction: row; 
+    box-sizing: content-box;
+}
+
+div {
+    width: 900px;
+    margin: auto;
+  }
+
+  img {
+    width: 500px;
+  }
+  
+#main {
+  background-color: aliceblue;
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+
+#title {
+  display: flex; /* make the section element a flex container */
+  justify-content: center; /* center the content horizontally */
+  align-items: center; /* center the content vertically */
+  width: 100%;
+}
+  
+  #title-text {
+    color: blue;
+    text-align: center;
+    font-size: 32px;
+  }
+  #title-text2 {
+    color: black;
+    text-align: center;
+    font-size: 32px;
+  }
+  
+  p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #img-div {
+    display: flex; /* make the section element a flex container */
+    justify-content: center; /* center the content horizontally */
+    align-items: center; /* center the content vertically */
+    width: 100%;
+  }
+  
+
+  img {
+    max-width: 100%;
+  }
+
+  #header-section {
+    position: relative; /* make the section element a positioned element */
+  }
+  
+  p {
+    text-align: center; /* center the text within the element */
+  }
+
+  #timeline-main {
+    display: flex; /* make the section element a flex container */
+    justify-content: center; /* center the content horizontally */
+    align-items: center; /* center the content vertically */
+    width: 100%;
+  }
+
+  span {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  footer {
+    background-color: lightgray; 
+    padding: 20px; 
+  }
+ 
+  @media (max-width: 500px) {
+    div {
+      width: 90%; 
+    }
+    h1 {
+      font-size: 24px; 
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  
+  /* styles for tablets (768px and wider) */
+@media (min-width: 768px) {
+    section {
+      width: 768px;
+    }
+  }
+  
+  /* styles for phones (600px and narrower) */
+  @media (max-width: 600px) {
+    section {
+      width: 90%;
+    }
+  }
+  @media (max-width: 600px) {
+    body {
+      flex-direction: column;
+    }
+    section {
+      width: 100%;
+    }
+  }
+
