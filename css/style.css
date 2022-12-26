@@ -11,7 +11,7 @@ div {
     margin: auto;
   }
 
-  img {
+  #image {
     width: 500px;
   }
   
@@ -37,13 +37,14 @@ div {
     text-align: center;
     font-size: 32px;
   }
+
   #title-text2 {
     color: black;
     text-align: center;
     font-size: 32px;
   }
   
-  p {
+  #img-caption {
     font-size: 16px;
     text-align: center;
   }
@@ -68,7 +69,7 @@ div {
     text-align: center; /* center the text within the element */
   }
 
-  #timeline-main {
+  #tribute-info {
     display: flex; /* make the section element a flex container */
     justify-content: center; /* center the content horizontally */
     align-items: center; /* center the content vertically */
